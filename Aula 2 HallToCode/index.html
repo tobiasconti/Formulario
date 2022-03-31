@@ -1,0 +1,70 @@
+<head>
+    
+    <title>Aula-2 - Formulário</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link href="./styles.css" rel="stylesheet">
+</head>
+<body>
+  <h1 class="title">Faça seu cadastro</h1>
+
+  <div class="label-space">
+    <label class="label-text" for="name-field">Nome completo</label>
+    <input type="text" placeholder="Digite seu nome completo" id="name-field" class="text-field"/>
+  </div>
+  
+ <div class="label-space-two">
+    <div class="label-space">
+        <label for="born-field" class="label-text">Data de nascimento</label>
+        <input type="date" id="born-field" class="birthday-field"/>
+    </div>  
+        
+      <div class="label-space">
+        <label for="country-field" class="label-text">País</label>
+        <select id="country-field" class="country-field">
+          <option>Brasil</option>
+          <option>Argentina</option>
+          <option>Uruguai</option>
+          <option>Paraguai</option>
+        </select>
+      </div>
+        
+</div>
+<div class="label-space">
+    <label class="label-text">Gênero:</label>
+    <div">
+        <input type="radio" name="opcao"> <label class="option">Masculino</label>
+        <input type="radio" name="opcao"> <label class="option">Feminino</label>
+        <input type="radio" name="opcao"> <label class="option">Não declarar</label>
+    </div>
+</div>    
+    
+<div class="label-space">
+    <label class="label-text" for="email-field">E-mail</label>
+    <input type="email" placeholder="Digite seu e-mail" class="text-field" id="email-field">
+  </div>
+  
+<div class="label-space">
+    <label class="label-text" for="password-field">Senha</label>
+    <input type="password" placeholder="Digite sua senha" class="text-field" id="password-field">
+  </div>
+  
+<div class="label-space">
+    <label class="label-text" for="password-confirm">Confirmar senha</label>
+    <input type="password" placeholder="Confirme sua senha" class="text-field" id="password-confirm">
+</div>
+  
+<div class="terms-and-conditions">
+    <input type="checkbox" class="checkbox"> 
+    <div class="accept-box">
+        <p> Aceito os <a target="_blank" href="termos-e-condicoes.html" rel="noopener noreferrer"> termos e condições</a> e concordo com as <a target="_blank" href="politicas-de-privacidade.html">políticas de privacidade</a> do Hall To Code.</p>
+    </div>
+</div>
+  
+  <button class="button">CADASTRAR</button>
+
+  <p>Já tem uma conta no Hall To Code? Entre agora</p>
+</body>
